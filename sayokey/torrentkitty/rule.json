@@ -1,0 +1,26 @@
+{
+  "site": "torrentkitty",
+  "searchUrl": "https://www.torrentkitty.red/search/${keyword}/${nowPage}",
+  "group": "//*[@id=\"archiveResult\"]/tbody",
+  "count" : 20,
+  "groupStart": 2,
+  "page": "//*[@id=\"main\"]/div[2]/div[4]/a[3]/text()",
+  "size" : "//tr[${index}]/td[@class='size']/text()",
+  "name": "//tr[${index}]/td[@class='name']/text()",
+  "update": "//tr[${index}]/td[@class='date']/text()",
+  "magnet": "//tr[${index}]/td[@class='action']/a[2]/@href",
+  "detailUrl": "",
+  "detail": {
+    "enable": false,
+    "url": "",
+    "size" : "",
+    "name": "",
+    "update": "",
+    "magnet": ""
+  },
+  "proxy": {
+    "host": "127.0.0.1",
+    "port": 7890,
+    "enable": true
+  }
+}
